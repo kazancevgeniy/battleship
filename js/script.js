@@ -13,7 +13,7 @@ var view = {
 	},
 
 	displayMiss: function(location){
-		var cell = document.getElementById(location); // Помах
+		var cell = document.getElementById(location); // Промах
 		cell.setAttribute("class", "miss");
 	}
 };
